@@ -3,36 +3,193 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <title>Luis Carlos Matus Mejía | Portafolio</title>
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
   </head>
+
   <body>
-    <header>
-      <h1>Mi Portafolio Web</h1>
-      <nav>
-        <ul>
-          <li><a href="#sobre-mi">Sobre mí</a></li>
-          <li><a href="#proyectos">Proyectos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </nav>
+    <!-- HEADER -->
+
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <p>Luis Matus</p>
+        </div>
+
+        <nav class="nav">
+          <a href="#habilidades">Habilidades</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
     </header>
 
+    <!-- MAIN -->
+
     <main>
-      <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>¡Hola! Soy un desarrollador web en formación.</p>
+      <!-- HERO -->
+
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-image">
+            <img src="Img/Luis Matus/Mi Foto.png" alt="Foto de perfil" />
+          </div>
+
+          <div class="hero-content">
+            <p class="hero-role">Estudiante Desarrollador Full-Stack</p>
+
+            <h1>
+              Luis Carlos<br />
+              Matus Mejía
+            </h1>
+
+            <p class="hero-description">
+              Luis Matus es un estudiante de Desarrollo Full Stack apasionado
+              por la creación de sitios web funcionales y visualmente
+              atractivos. Cuenta con conocimientos básicos en HTML y CSS, que
+              utiliza para desarrollar interfaces bien estructuradas y fáciles
+              de usar.
+            </p>
+
+            <p class="hero-description">
+              Se enfoca en la construcción de proyectos responsivos que se
+              adaptan correctamente a dispositivos móviles, tabletas y
+              computadoras. Destaca por su interés en el aprendizaje continuo y
+              su compromiso con la mejora constante de sus habilidades técnicas.
+            </p>
+
+            <p class="hero-description">
+              Es una persona responsable, detallista y orientada a la calidad en
+              cada proyecto que realiza. Su objetivo es seguir ampliando sus
+              conocimientos para convertirse en un desarrollador Full Stack
+              capaz de crear soluciones web completas y eficientes.
+            </p>
+
+            <div class="hero-links">
+              <a href="https://github.com/LuisCarlos7686" target="_blank">
+                GitHub
+              </a>
+
+              <a href="#"> Hablemos </a>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section id="proyectos">
-        <h2>Mis Proyectos</h2>
-        <p>Aquí estarán mis proyectos futuros.</p>
+      <!-- HABILIDADES -->
+
+      <section class="skills" id="habilidades">
+        <div class="container">
+          <h2>Habilidades</h2>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <i class="fa-brands fa-html5"></i>
+
+              <h3>HTML</h3>
+            </article>
+
+            <article class="skill-card">
+              <i class="fa-brands fa-css3-alt"></i>
+
+              <h3>CSS</h3>
+            </article>
+
+            <article class="skill-card">
+              <i class="fa-brands fa-git-alt"></i>
+
+              <h3>Git</h3>
+            </article>
+
+            <article class="skill-card">
+              <i class="fa-brands fa-github"></i>
+
+              <h3>GitHub</h3>
+            </article>
+
+            <article class="skill-card">
+              <i class="fa-solid fa-robot"></i>
+
+              <h3>OpenAI</h3>
+            </article>
+          </div>
+        </div>
       </section>
 
-      <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Puedes contactarme en: mi-email@ejemplo.com</p>
+      <!-- PROYECTOS -->
+
+      <section class="projects" id="proyectos">
+        <div class="container">
+          <h2>Proyectos</h2>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <img
+                src="Img/Proyectos/Proyecto-Cafeteria.png"
+                alt="Proyecto cafetería"
+              />
+
+              <div class="project-content">
+                <h3>Página web de una cafetería</h3>
+
+                <p>
+                  Desarrollo de una landing page responsiva para una cafetería
+                  siguiendo un brief de diseño. Incluye estructura semántica,
+                  maquetación con Flexbox, creación de secciones nuevas y un
+                  formulario de contacto funcional.
+                </p>
+
+                <p>
+                  Implementé desde cero el diseño completo de la página,
+                  organicé el proyecto con buenas prácticas y publiqué la
+                  versión final utilizando GitHub Pages.
+                </p>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/LuisCarlos7686/web_project_coffeeshop_es.git"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
       </section>
     </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer" id="contacto">
+      <div class="container">
+        <h2>Contacto</h2>
+
+        <p class="email">luca18.en.07@gmail.com</p>
+
+        <div class="social-icons">
+          <i class="fa-brands fa-linkedin"></i>
+
+          <i class="fa-brands fa-facebook"></i>
+
+          <i class="fa-brands fa-instagram"></i>
+
+          <i class="fa-brands fa-x-twitter"></i>
+
+          <i class="fa-brands fa-github"></i>
+        </div>
+
+        <p class="copyright">© 2026 Luis Carlos Matus Mejía</p>
+      </div>
+    </footer>
   </body>
 </html>
